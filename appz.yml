@@ -6,6 +6,7 @@ app:
 build:
     version: 0.1
     env: DEV
+    BUILD_ENV: "build:prod"
     build_file: none
     output_files: output/*.zip
     image_template: node-14.16
